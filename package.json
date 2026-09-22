@@ -1,0 +1,14 @@
+{
+  "name": "rolldown-bundler-timings-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node demo.mjs all",
+    "demo:slow-test": "node demo.mjs slow-test",
+    "demo:slow-name": "node demo.mjs slow-name",
+    "demo:debug-name": "node demo.mjs debug-name"
+  },
+  "dependencies": {
+    "rolldown": "https://pkg.pr.new/rolldown@6db3aa896"
+  }
+}
